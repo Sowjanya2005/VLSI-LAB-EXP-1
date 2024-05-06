@@ -9,3 +9,4 @@ nor(norgate,a,b);
 xnor(xnorgate,a,b);
 not(notgate,a);
 endmodule
+
