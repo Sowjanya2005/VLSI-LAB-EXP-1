@@ -1,13 +1,44 @@
-# VLSI-LAB-EXPERIMENTS
-AIM: To simulate and synthesis Logic Gates,Adders and Subtractor using Xilinx ISE.
+EXP 1:                    SIMULATION OF LOGIC GATES,ADDERS AND SUBTRACTORS
 
-APPARATUS REQUIRED: Xilinx 14.7 Spartan6 FPGA
+DATE:
 
-PROCEDURE: STEP:1 Start the Xilinx navigator, Select and Name the New project. STEP:2 Select the device family, device, package and speed. STEP:3 Select new source in the New Project and select Verilog Module as the Source type. STEP:4 Type the File Name and Click Next and then finish button. Type the code and save it. STEP:5 Select the Behavioral Simulation in the Source Window and click the check syntax. STEP:6 Click the simulation to simulate the program and give the inputs and verify the outputs as per the truth table. STEP:7 Select the Implementation in the Sources Window and select the required file in the Processes Window. STEP:8 Select Check Syntax from the Synthesize XST Process. Double Click in the Floorplan Area/IO/Logic-Post Synthesis process in the User Constraints process group. UCF(User constraint File) is obtained. STEP:9 In the Design Object List Window, enter the pin location for each pin in the Loc column Select save from the File menu. STEP:10 Double click on the Implement Design and double click on the Generate Programming File to create a bitstream of the design.(.v) file is converted into .bit file here. STEP:12 Load the Bit file into the SPARTAN 6 FPGA STEP:11 On the board, by giving required input, the LEDs starts to glow light, indicating the output.
+AIM: 
 
-Logic Diagram :
+To simulate and synthesis Logic Gates,Adders and Subtractor using Xilinx ISE.
 
-Logic Gates:
+APPARATUS REQUIRED:
+
+Xilinx 14.7 Spartan6 FPGA
+
+PROCEDURE:
+
+STEP:1 Start the Xilinx navigator, Select and Name the New project.
+
+STEP:2 Select the device family, device, package and speed.
+
+STEP:3 Select new source in the New Project and select Verilog Module as the Source type. 
+
+STEP:4 Type the File Name and Click Next and then finish button. Type the code and save it.
+
+STEP:5 Select the Behavioral Simulation in the Source Window and click the check syntax. 
+
+STEP:6 Click the simulation to simulate the program and give the inputs and verify the outputs as per the truth table. 
+
+STEP:7 Select the Implementation in the Sources Window and select the required file in the Processes Window. 
+
+STEP:8 Select Check Syntax from the Synthesize XST Process. Double Click in the Floorplan Area/IO/Logic-Post Synthesis process in the User Constraints process group. UCF(User constraint File) is obtained. 
+
+STEP:9 In the Design Object List Window, enter the pin location for each pin in the Loc column Select save from the File menu. 
+
+STEP:10 Double click on the Implement Design and double click on the Generate Programming File to create a bitstream of the design.(.v) file is converted into .bit file here. 
+
+STEP:11 Load the Bit file into the SPARTAN 6 FPGA 
+
+STEP:12 On the board, by giving required input, the LEDs starts to glow light, indicating the output.
+
+LOGIC GATES
+
+LOGIC DIAGRAM:
 
 ![image](https://github.com/navaneethans/VLSI-LAB-EXPERIMENTS/assets/6987778/ee17970c-3ac9-4603-881b-88e2825f41a4)
 
@@ -28,7 +59,9 @@ endmodule
 OUTPUT:
 ![all gates](https://github.com/navaneethans/VLSI-LAB-EXP-1/assets/159280328/2308939f-950f-4c89-ae8c-0e725c914956)
 
-Half Adder:
+HALF ADDER
+
+LOGIC DIAGRAM:
 
 ![image](https://github.com/navaneethans/VLSI-LAB-EXPERIMENTS/assets/6987778/0e1ecb96-0c25-4556-832b-aeeedfdfe7b9)
 
@@ -44,7 +77,9 @@ endmodule
 OUTPUT:
 ![half adder](https://github.com/navaneethans/VLSI-LAB-EXP-1/assets/159280328/9d781f82-59d5-4283-a4e3-bef25161caa6)
 
-Full adder:
+FULL ADDER
+
+LOGIC DIAGRAM:
 
 ![image](https://github.com/navaneethans/VLSI-LAB-EXPERIMENTS/assets/6987778/9bb3964c-438f-469d-a3de-c1cca6f323fb)
 
@@ -64,7 +99,9 @@ endmodule
 OUTPUT:
 ![full adder](https://github.com/navaneethans/VLSI-LAB-EXP-1/assets/159280328/aa9f0ef0-8489-46a8-9508-ace9c4982efb)
 
-Half Subtractor:
+HALF SUBTRACTOR
+
+LOGIC DIAGRAM:
 
 ![image](https://github.com/navaneethans/VLSI-LAB-EXPERIMENTS/assets/6987778/731470b7-eb4e-49f8-8bb7-2994052a7184)
 
@@ -82,7 +119,9 @@ endmodule
 OUTPUT:
 ![half subtractor](https://github.com/navaneethans/VLSI-LAB-EXP-1/assets/159280328/012a0953-638f-4903-bd23-1de12af1b027)
 
-Full Subtractor:
+FULL SUBTRACTOR
+
+LOGIC DIAGRAM:
 
 ![image](https://github.com/navaneethans/VLSI-LAB-EXPERIMENTS/assets/6987778/d66f874b-c1f2-44b3-a035-7149b56430c1)
 
@@ -104,7 +143,9 @@ endmodule
 OUTPUT:
 ![full subtractor](https://github.com/navaneethans/VLSI-LAB-EXP-1/assets/159280328/efa0bf14-815d-47ec-8ee7-b0a1936011dc)
 
-8 Bit Ripple Carry Adder
+8 BIT RIPPLE CARRY ADDER
+
+LOGIC DIAGRAM:
 
 ![image](https://github.com/navaneethans/VLSI-LAB-EXPERIMENTS/assets/6987778/7385a408-40a5-4203-8050-b72818622d79)
 
@@ -135,5 +176,6 @@ OUTPUT:
 ![Ripple Carry Adder (8bit)](https://github.com/navaneethans/VLSI-LAB-EXP-1/assets/159280328/70b46731-e6d4-4324-a636-645e07af0094)
 
 RESULT:
+
  Thus the simulation and synthesis of Logic Gates, Adders and Subtractor using 
 Xilinx ISE is simulated successfully. 
