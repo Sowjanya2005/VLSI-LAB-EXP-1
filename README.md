@@ -1,4 +1,4 @@
-EXP 1:                    SIMULATION OF LOGIC GATES,ADDERS AND SUBTRACTORS
+EXP 1:                                              SIMULATION OF LOGIC GATES,ADDERS AND SUBTRACTORS
 
 DATE:
 
